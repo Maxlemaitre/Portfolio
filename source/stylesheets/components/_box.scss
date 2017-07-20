@@ -1,0 +1,108 @@
+/* Box design */
+
+.box {
+  width: 98%;
+  margin-right: auto;
+  margin-left: auto;
+  line-height: 1.7;
+  li {
+    font-weight: 100 !important;
+  }
+  h3 {
+    font-size: 22px;
+  }
+}
+
+.box-right {
+  height: 360px;
+  border: 1px solid $brand-color;
+  border-bottom: none !important;
+  color: $brand-color;
+  padding: 20px;
+}
+
+.box-center {
+  height: 360px;
+  border: 1px solid $middleblue;
+  border-bottom: none !important;
+  color: $middleblue;
+  padding: 20px;
+}
+
+.box-left {
+  height: 360px;
+  border: 1px solid $blue;
+  border-bottom: none !important;
+  color: $blue;
+  padding: 20px;
+}
+
+.box-bottom-left {
+  height : 80px;
+  color: white;
+  border: 1px solid $blue;
+  border-top: none !important;
+  h3 {
+    margin-top: 0px;
+    padding-top: 10px;
+  }
+  .layer {
+   background-color: $blue;
+  }
+}
+
+.box-bottom-center {
+  height : 80px;
+  color: white;
+  border: 1px solid $middleblue;
+  border-top: none !important;
+  h3 {
+    margin-top: 0px;
+    padding-top: 10px;
+  }
+  .layer {
+   background-color: $middleblue;
+  }
+}
+
+
+.box-bottom-right {
+  height : 80px;
+  border-top: none !important;
+  color: white;
+  border: 1px solid $brand-color;
+  h3 {
+    margin-top: 0px;
+    padding-top: 10px;
+  }
+  .layer {
+   background-color: $brand-color;
+  }
+}
+
+.layer {
+height: 50px;
+width: 100%;
+}
+
+/* Box mobile design */
+
+@media (max-width: 768px) {
+  .box-bottom-right, .box-bottom-center, .box-bottom-left {
+    margin-bottom: 20px;
+  }
+
+  .big-padded {
+    padding-top: 2em;
+  }
+
+  .box-left {
+    margin-top: 30px;
+    height: 400px;
+    line-height: 1.5;
+  }
+  .box-right {
+    line-height: 1.5;
+    }
+  }
+

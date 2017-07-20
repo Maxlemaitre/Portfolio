@@ -1,0 +1,42 @@
+<div class="navbar-wagon navbar-wagon-fixed">
+  <!-- Logo -->
+  <% link_to "http://h2I-homeinspect.com", class: "navbar-wagon-brand" do %>
+    <%= image_tag "h2i-logo.png" %>
+  <% end %>
+
+  <!-- Right Navigation -->
+  <div class="navbar-wagon-right hidden-xs hidden-sm">
+
+    <!-- Text link -->
+    <%= link_to "À Propos", "#propos", class: "navbar-wagon-item navbar-wagon-link" %>
+
+        <!-- Text link -->
+    <%= link_to "Prestations", "#prestations", class: "navbar-wagon-item navbar-wagon-link" %>
+
+        <!-- Text link -->
+    <%= link_to "Avantages", "#avantages", class: "navbar-wagon-item navbar-wagon-link" %>
+
+        <!-- Text link -->
+    <%= link_to "Offres", "#offres", class: "navbar-wagon-item navbar-wagon-link" %>
+
+        <!-- Text link -->
+    <%#= link_to "Actualités", "#actualites", class: "navbar-wagon-item navbar-wagon-link" %>
+
+        <!-- Text link -->
+    <%= link_to "Contact", "#contact", class: "navbar-wagon-item navbar-wagon-link" %>
+
+  </div>
+  <!-- Dropdown appearing on mobile only -->
+  <div class="navbar-wagon-item hidden-md hidden-lg">
+    <div class="dropdown">
+      <i class="fa fa-bars dropdown-toggle" data-toggle="dropdown"></i>
+      <ul class="dropdown-menu dropdown-menu-right navbar-wagon-dropdown-menu">
+        <li><%= link_to "À Propos", "#propos" %></li>
+        <li><%= link_to "Prestations", "#prestations" %></li>
+        <li><%= link_to "Avantages", "#avantages" %></li>
+        <li><%= link_to "Offres", "#offres" %></li>
+        <li><%= link_to "Contact", "#contact" %></li>
+      </ul>
+    </div>
+  </div>
+</div>

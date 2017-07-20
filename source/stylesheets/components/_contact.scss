@@ -1,0 +1,25 @@
+.contact {
+  height: 300px;
+  padding-top: 50px;
+  i {
+    color: $blue;
+    margin-right: 8px;
+  }
+  .fa-map-marker:before {
+    font-size: 18px
+  }
+  .fa-phone:before {
+    font-size: 18px
+  }
+}
+
+.email {
+  text-decoration: none;
+  color: black;
+}
+
+.email:hover {
+  text-decoration: none;
+  color: $blue;
+  cursor: pointer;
+}

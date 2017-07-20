@@ -1,0 +1,31 @@
+.title {
+  color: $brand-color;
+  h2 {
+    margin-bottom: 1em !important;
+  }
+  .line {
+    width: 60px;
+    border-bottom: 1px solid $grey;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+#footer {
+  margin-top: 3em;
+  background-color: $brand-color;
+  color: white;
+  padding: 10px 0px;
+  .fa {
+    color: white;
+  }
+  p {
+    margin-bottom: 0px;
+  }
+}
+
+.description p {
+  padding-right: 50px;
+  padding-left: 50px
+  }
+
