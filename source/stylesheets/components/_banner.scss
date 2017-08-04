@@ -10,13 +10,43 @@
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
+  position: relative;
 }
+
+.banner-content{
+  padding-bottom: 50px;
+}
+
 .banner h1 {
   font-size: 50px;
-  // text-shadow: 0px 1px rgba(0, 0, 0, 0.2);
   padding: 1vh 8vw;
   text-align: left;
+  max-width: 750px;
   color: rgba(39, 48, 59, 0.8);
+}
+
+.contact-btn {
+  border: 1px solid #0090FF;
+  background-color: #0090FF;
+  padding: 6px 3px;
+  border-radius: 2px;
+  color: white;
+  transition-duration: 0.2s;
+  cursor: pointer;
+}
+
+.contact-btn a {
+  text-decoration: none;
+  color: white
+}
+
+.contact-btn:hover {
+  border: 1px solid #0090FF;
+  background-color: white;
+  transition-duration: 0.2s;
+  a {
+    color: #0090FF;
+  }
 }
 
 .cool-blue {
@@ -25,14 +55,18 @@
 
 /* Main class */
 .navbar-grid {
+  margin-top: 30px;
   display: flex;
   justify-content: flex-end;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  flex-direction: row-reverse;
 }
 
 .navbar-wagon {
-  // width: 100%;
+  width: 100%;
   padding: 0px 30px;
-  display: flex;
   justify-content: space-between;
   align-items: center;
 }
@@ -53,7 +87,7 @@
 /* Navbar standard link */
 .navbar-wagon-link {
   color: $brand-color;
-  font-size: 14px;
+  font-size: 13px;
 }
 .navbar-wagon-link:hover {
   color: $blue;
